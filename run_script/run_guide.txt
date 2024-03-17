@@ -1,0 +1,56 @@
+1. Deloy the Spark Cluster
+$SPARK_HOME/sbin/start-master.sh
+$SPARK_HOME/sbin/start-workers.sh spark://<MASTER-NODE-IP>:7077
+
+2. Shutdown the Spark Cluster
+$SPARK_HOME/sbin/stop-all.sh
+
+3. Script
+Arguments:
+	-h, --help : Show Usage.
+	-M, --mode : Run mode of program. Default value: 0
+ 	-i, --input : Path of input file.
+ 	-o, --output : Path of output directory.
+ 	-p, --checkpoint : Path of checkpoint directory.
+ 	-c, --numSp, --numClus : Number of species. Default value: 2
+ 	-l, --ksize, --kmersize : Length of l-mers which are used to merge reads in the first phase of binning process. Default value: 30
+ 	-m, --thres, --threshold : Number of shared l-mers between reads, which are used to determine whether it should merge reads or not. Default value: 5
+ 	-s, --ssize, --seedsize : The maximum number of reads in each seed. Default value: 20
+ 	-d, --discard : Discard reads, default has discard reads, if yes then the cluster is labeled as -1. Default value: 0
+ 	-v, --verbose	: Display detailed information, default does not display verbose. Default value: 0
+ 	-f, --format : File Type is saved temporary directory [parquet|text]. Default value: parquet
+
+$total_cores = 72
+$exec_cores = 2
+$parallelism = 100
+$shuffle_partitions = 100
+
+$SPARK_HOME/bin/spark-submit \
+--name "SpaBiMeta Program" \
+--class binning.SpaBiMeta \
+--master spark://<MASTER-NODE-IP>:7077 \
+--executor-memory 10G \
+--total-executor-cores $total_cores \
+--conf "spark.memory.fraction=0.6" \
+--conf "spark.memory.storageFraction=0.4" \
+--conf "spark.default.parallelism=$parallelism" \
+--conf "spark.sql.shuffle.partitions=$shuffle_partitions" \
+--conf "spark.sql.inMemoryColumnarStorage.compressed=true" \
+--conf "spark.sql.inMemoryColumnarStorage.batchSize=10000" \
+--conf "spark.sql.cbo.enabled=true" \
+--conf "spark.executor.cores=$exec_cores"
+--conf "spark.driver.cores=5"
+--conf "spark.driver.memory=28g"
+--conf "spark.driver.extraJavaOptions=-Xms2g -XX:+UseConcMarkSweepGC" \
+--conf "spark.driver.maxResultSize=5g" \
+--conf "spark.kryoserializer.buffer.max=512m" \
+--conf "spark.network.timeout=360000" \
+--conf "spark.executor.heartbeatInterval=10000000" \
+--conf spark.speculation=true \
+--conf spark.eventLog.enabled=false \
+--jars <PATH-TO-GRAPHFRAMES-LIB-JAR>/graphframes-0.8.2-spark3.2-s_2.12.jar \
+<PATH-TO-APP-JAR>/spabimeta0-1-2_2.12.jar \
+-i <PATH-TO-INPUT>/<FASTA_FILE_NAME> \
+-o <PATH-TO-OUTPUT> \
+-p <PATH-TO-CHECKPOINT> \
+-c 2 -m 5 -l 30 -s 20 -d 0 -f parquet -v 0

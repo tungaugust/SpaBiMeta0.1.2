@@ -1,0 +1,49 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.6.2 (Oracle Corporation Java 1.8.0_401)
+[debug] Load.defaultLoad until apply took 125.6198ms
+[debug]           Load.loadUnit: plugins took 51.3299ms
+[debug]           Load.loadUnit: defsScala took 0.197ms
+[debug] [Loading] Scanning directory D:\Study\intellij-workspace\SpaBiMeta0.1.2\project
+[debug]             Load.loadUnit: mkEval took 4.9916ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\Study\intellij-workspace\SpaBiMeta0.1.2\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 10.3468 ms
+[info] loading settings for project spabimeta0-1-2-build from plugins.sbt ...
+[debug]               Load.resolveProject(spabimeta0-1-2-build) took 33.0681ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id spabimeta0-1-2-build, base: D:\Study\intellij-workspace\SpaBiMeta0.1.2\project, plugins: List(<none>))) took 48.7311ms
+[debug] [Loading] Done in D:\Study\intellij-workspace\SpaBiMeta0.1.2\project, returning: (spabimeta0-1-2-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 1381.4352ms
+[debug]           Load.loadUnit: cleanEvalClasses took 24.8406ms
+[debug]         Load.loadUnit(file:/D:/Study/intellij-workspace/SpaBiMeta0.1.2/project/, ...) took 1461.1383ms
+[debug]       Load.apply: load took 1551.6903ms
+[debug]       Load.apply: resolveProjects took 3.1167ms
+[debug]       Load.apply: finalTransforms took 29.5983ms
+[debug]       Load.apply: config.delegates took 4.4353ms
+[debug]       Load.apply: Def.make(settings)... took 285.9888ms
+[debug]       Load.apply: structureIndex took 45.0058ms
+[debug]       Load.apply: mkStreams took 1.0908ms
+[info] loading project definition from D:\Study\intellij-workspace\SpaBiMeta0.1.2\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] sbt-revolver.jar no longer exists at C:\Users\tungpt\AppData\Local\Coursier\Cache\v1\https\repo.scala-sbt.org\scalasbt\sbt-plugin-releases\io.spray\sbt-revolver\scala_2.12\sbt_1.0\0.9.1\jars\sbt-revolver.jar

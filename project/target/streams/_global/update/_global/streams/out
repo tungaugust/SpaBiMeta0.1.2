@@ -1,3 +1,4 @@
-[debug] not up to date. inChanged = true, force = false
-[debug] Updating ProjectRef(uri("file:/D:/Study/projects/SpaBiMeta0.1.2/project/"), "spabimeta0-1-2-build")...
-[debug] Done updating ProjectRef(uri("file:/D:/Study/projects/SpaBiMeta0.1.2/project/"), "spabimeta0-1-2-build")
+[warn] sbt-revolver.jar no longer exists at C:\Users\tungpt\AppData\Local\Coursier\Cache\v1\https\repo.scala-sbt.org\scalasbt\sbt-plugin-releases\io.spray\sbt-revolver\scala_2.12\sbt_1.0\0.9.1\jars\sbt-revolver.jar
+[debug] not up to date. inChanged = false, force = false
+[debug] Updating ProjectRef(uri("file:/D:/Study/intellij-workspace/SpaBiMeta0.1.2/project/"), "spabimeta0-1-2-build")...
+[debug] Done updating ProjectRef(uri("file:/D:/Study/intellij-workspace/SpaBiMeta0.1.2/project/"), "spabimeta0-1-2-build")
