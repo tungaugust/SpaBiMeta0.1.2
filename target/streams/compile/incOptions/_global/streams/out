@@ -1,0 +1,65 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = D:\Study\projects\SpaBiMeta0.1.2\target\scala-2.12\classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	OverlapGraph$NodeClass.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Utils$InputParams.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	OverlapGraph$$typecreator1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Clusters.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Clusters$$typecreator1$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Clusters$$typecreator1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SpaBiMeta$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Program00$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SpaBiMeta.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PreProcess$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Clusters$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	OverlapGraph.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	OverlapGraph$$typecreator6$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Utils.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	OverlapGraph$NodeClass$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	OverlapGraph$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PreProcess.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Program00.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Utils$InputParams$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Utils$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	OverlapGraph$NodeClass.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Utils$InputParams.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	OverlapGraph$$typecreator1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Clusters.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Clusters$$typecreator1$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Clusters$$typecreator1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SpaBiMeta$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Program00$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SpaBiMeta.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PreProcess$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Clusters$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	OverlapGraph.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	OverlapGraph$$typecreator6$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Utils.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	OverlapGraph$NodeClass$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	OverlapGraph$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PreProcess.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Program00.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Utils$InputParams$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Utils$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	OverlapGraph$NodeClass.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Utils$InputParams.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	OverlapGraph$$typecreator1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Clusters.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Clusters$$typecreator1$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Clusters$$typecreator1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SpaBiMeta$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Program00$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SpaBiMeta.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PreProcess$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Clusters$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	OverlapGraph.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	OverlapGraph$$typecreator6$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Utils.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	OverlapGraph$NodeClass$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	OverlapGraph$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PreProcess.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Program00.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Utils$InputParams$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Utils$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: D:\Study\projects\SpaBiMeta0.1.2\target\scala-2.12\classes.bak[0m
